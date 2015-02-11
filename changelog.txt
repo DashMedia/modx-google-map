@@ -1,2 +1,0 @@
-==googleMap 1.0.0-pl==
--inital release
