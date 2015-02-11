@@ -1,0 +1,11 @@
+Changelog for googleMap
+
+googleMap 1.0.1pl
+---------------------------------
+- Change default api key system setting name
+	- still checks the old name as a fallback
+- Use https
+
+googleMap 1.0.0pl
+---------------------------------
+Inital version

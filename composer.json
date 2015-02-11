@@ -1,0 +1,33 @@
+{
+    "name": "dashmedia/googleMap",
+    "description": "",
+    "type": "modx-package",
+    "keywords": ["modx","googlemap"],
+    "homepage": "https://github.com/DashMedia/modx-google-map",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Your Name Here",
+            "email": "you@email.com",
+            "homepage" : "https://craftsmancoding.com/"
+        }        
+    ],
+    "support": {
+        "email": "jason@dashmedia.com.au",
+        "issues": "https://github.com/DashMedia/modx-google-map/issues",
+        "source": "https://github.com/DashMedia/modx-google-map.git"
+    },    
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap":["model/"]
+    },
+    "extra": {
+        "package_name": "googleMap",
+        "namespace": "googlemap",
+        "version": "1.0.1",
+        "release": "pl",
+        "category":"Google Map"
+    }
+}
