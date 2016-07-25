@@ -1,5 +1,9 @@
 Changelog for googleMap
 
+googleMap 1.0.2pl
+---------------------------------
+- Fix for not including api key
+
 googleMap 1.0.1pl
 ---------------------------------
 - Change default api key system setting name

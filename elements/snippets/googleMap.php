@@ -86,4 +86,4 @@ $zoom = '&amp;zoom='.urlencode($settings['z']);
 $markers = urlencode($settings['marker'])?'&amp;markers='.$address:'';
 $sensor = urlencode($settings['sensor'])?'&amp;sensor=true':'&amp;sensor=false';
 
-return $api.$center.$size.$zoom.$markers.$sensor;
+return $api.$center.$size.$zoom.$markers.$sensor.$key;
