@@ -39,8 +39,8 @@ if(isset($options) && !is_null($options)){
 	//options not included, execute as snippet call
 	$settingsArray = array('w', 'h', 'z', 'address', 'key', 'sensor', 'marker');
 	foreach ($settingsArray as $key => $value) {
-		if(isset(${$value})){
-			$settings[$value] = ${$value};
+		if(isset($scriptProperties[$value])){
+			$settings[$value] = $scriptProperties[$value];
 		}
 	}
 }

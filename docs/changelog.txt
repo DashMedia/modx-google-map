@@ -1,5 +1,9 @@
 Changelog for googleMap
 
+googleMap 1.0.3pl
+---------------------------------
+- Fix for using as snippet (not as an output modifier)
+
 googleMap 1.0.2pl
 ---------------------------------
 - Fix for not including api key
