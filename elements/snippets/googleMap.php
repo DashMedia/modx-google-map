@@ -56,7 +56,7 @@ if(empty($settings['key'])){
 }
 
 //we now have a setings array populated
-$required = array('key', 'address');
+$required = array('address');
 foreach ($required as $key => $value) {
 	if(!isset($settings[$value]) || is_null($settings[$value]) || $settings[$value] == ''){
 		return "googleMap Error: Missing Required Option: ".$value;
