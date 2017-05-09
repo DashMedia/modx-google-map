@@ -3,14 +3,18 @@
  * @name googleMap
  * @description Google Map output modifier snippet
  *
- * USAGE
+ * Contributors
+ * ------------
+ * Jason Carney
+ * Josh Curtis
+ * Created on 10-31-2014
  *
+ * Usage
+ * -----
  *  <img src="[[!googleMap? &address=`[[*tvAddress]]` &w=`425` &h=`300` &z=`16` &marker=`1` &sensor=`0`]]" />
- *  
+ *
  * <img src="[[*tvAddress:googleMap=`w=425,h=300,z=16,key=xxxxxxxxxxx,sensor=0,marker=1`]]" />
  *
- * Copyright 2015 by Jason Carney <jason@dashmedia.com.au>
- * Created on 10-31-2014
  *
  *
  * Variables
@@ -34,7 +38,7 @@ if(isset($options) && !is_null($options)){
 	}
 	if (isset($input) && !is_null($input)) {
 		$settings['address'] = $input;
-	} 
+	}
 } else {
 	//options not included, execute as snippet call
 	$settingsArray = array('w', 'h', 'z', 'address', 'key', 'sensor', 'marker');
@@ -64,7 +68,7 @@ foreach ($required as $key => $value) {
 }
 //we have all settings required, set defaults for any missing
 $defaults = array(
-	'w' => 435, 
+	'w' => 435,
 	'h' => 300,
 	'z' => 16,
 	'sensor' => 0,

@@ -7,16 +7,16 @@
     "license": "GPL-2.0+",
     "authors": [
         {
-            "name": "Your Name Here",
-            "email": "you@email.com",
-            "homepage" : "https://craftsmancoding.com/"
-        }        
+            "name": "Jason",
+            "email": "jason@dashmedia.com.au",
+            "homepage" : "https://dash.marketing/"
+        }
     ],
     "support": {
         "email": "jason@dashmedia.com.au",
         "issues": "https://github.com/DashMedia/modx-google-map/issues",
         "source": "https://github.com/DashMedia/modx-google-map.git"
-    },    
+    },
     "require": {
         "php": ">=5.3"
     },
@@ -26,7 +26,7 @@
     "extra": {
         "package_name": "googleMap",
         "namespace": "googlemap",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "release": "pl",
         "category":"Google Map"
     }
