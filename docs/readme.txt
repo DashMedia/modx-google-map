@@ -30,4 +30,4 @@ Contributors: Jason Carney, Josh Curtis, Jonathan Haslett
 
 ## Building this package (using Repoman)
 
-This package can be compiled using [Repoman by https://github.com/craftsmancoding/repoman](https://github.com/craftsmancoding/repoman). 
+This package can be compiled using [Repoman by Craftsman Coding](https://github.com/craftsmancoding/repoman). 
