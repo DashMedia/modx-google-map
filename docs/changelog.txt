@@ -1,28 +1,32 @@
 Changelog for googleMap
 
-googleMap 1.0.5pl
+googleMap 1.0.6-pl
+---------------------------------
+- BUG FIX: Not adding system setting on install.
+
+googleMap 1.0.5-pl
 ---------------------------------
 - Updated documentation
 - Fixed missing `/vendor/` and `autoload.php` in transport package.
 
-googleMap 1.0.4pl
+googleMap 1.0.4-pl
 ---------------------------------
 - Remove api key from required field
 
-googleMap 1.0.3pl
+googleMap 1.0.3-pl
 ---------------------------------
 - Fix for using as snippet (not as an output modifier)
 
-googleMap 1.0.2pl
+googleMap 1.0.2-pl
 ---------------------------------
 - Fix for not including api key
 
-googleMap 1.0.1pl
+googleMap 1.0.1-pl
 ---------------------------------
 - Change default api key system setting name
 	- still checks the old name as a fallback
 - Use https
 
-googleMap 1.0.0pl
+googleMap 1.0.0-pl
 ---------------------------------
 Inital version
