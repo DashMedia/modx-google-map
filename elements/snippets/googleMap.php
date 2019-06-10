@@ -77,10 +77,6 @@ $defaults = array(
 $settings = array_merge($defaults, $settings);
 
 //settings array ready with any non-set values set to defaults
-
-
-
-
 $address = urlencode($settings['address']);
 $center = 'center='.urlencode($settings['address']);
 $key = '&amp;key='.urlencode($settings['key']);

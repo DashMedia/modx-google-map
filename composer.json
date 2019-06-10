@@ -7,13 +7,13 @@
     "license": "GPL-2.0+",
     "authors": [
         {
-            "name": "Jason",
-            "email": "jason@dashmedia.com.au",
+            "name": "Jonathan Haslett",
+            "email": "modx@dashmedia.com.au",
             "homepage" : "https://dash.marketing/"
         }
     ],
     "support": {
-        "email": "jason@dashmedia.com.au",
+        "email": "modx@dashmedia.com.au",
         "issues": "https://github.com/DashMedia/modx-google-map/issues",
         "source": "https://github.com/DashMedia/modx-google-map.git"
     },
@@ -26,7 +26,7 @@
     "extra": {
         "package_name": "googleMap",
         "namespace": "googlemap",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "release": "pl",
         "category":"Google Map"
     }
