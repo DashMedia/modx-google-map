@@ -1,5 +1,10 @@
 Changelog for googleMap
 
+googleMap 1.0.5pl
+---------------------------------
+- Updated documentation
+- Fixed missing `/vendor/` and `autoload.php` in transport package.
+
 googleMap 1.0.4pl
 ---------------------------------
 - Remove api key from required field
